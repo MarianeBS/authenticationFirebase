@@ -1,7 +1,7 @@
 "# authenticationFirebase" 
 
 <p>
-  <img src="images/registro.png">
+  <img src="images/cadastro.png">
 </p> 
 <br>
 <p>
