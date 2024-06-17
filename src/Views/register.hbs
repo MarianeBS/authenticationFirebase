@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-danger p-3">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Firebase_Logo.png" width="200px" class="img-fluid">
+    <a class="navbar-brand" style="font-weight: bold;" href="#">AUTHENTICATION</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" style="font-weight: bold;" href="./login">LOGIN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-danger border border-white rounded bg-white" style="font-weight: bold;" href="./register">CADASTRO</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row justify-content-center mt-5">
+        <div class="col-md-5 bg-dark text-white p-4 border border-danger rounded border-5 mt-5">
+            <h1 class="text-center" style="font-weight: bold;">CADASTRO</h1>
+            <!-- Formulário de Login -->
+            <form action="/user/create" method="POST">
+                <div class="form-group">
+                    <label for="email" style="font-weight: bold;">E-MAIL:</label>
+                    <input type="email" name="email" class="form-control" id="email" aria-describedby="email" placeholder="joaozinho123@gmail.com">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="password" style="font-weight: bold;">SENHA:</label>
+                    <input type="password" name="password" class="form-control" id="password" placeholder="•••••••••••">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-danger mt-4" style="font-weight: bold;">CADASTRAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>  
+
+<footer class="navbar navbar-expand-lg navbar-dark bg-danger p-3 mt-auto">
+    <br>
+</footer>  
+
