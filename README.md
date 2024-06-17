@@ -1,4 +1,4 @@
-"# authenticationFirebase" 
+<h1>AuthenticationFirebase<h1> 
 
 <p>
   <img src="images/cadastro.png">
